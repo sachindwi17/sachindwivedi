@@ -4,6 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Software Engineer, FullStack Web Developer, Front-end Developer,Software Engineer Sachin Kumar Dwivedi">
 	<title>Software Engineer Sachin | Full stack developer</title>
 	<meta name="google-site-verification" content="ZfthBLbX9EcbkdVLobYcQLLsrzaGsbmELaCl6Fg-hfU" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
@@ -39,14 +41,14 @@
 	<div class="banner d-flex align-items-center" style="background-image: url('./static/images/profilepic1.JPG');"
 		id="home">
 		<ul class="socila_links">
-			<li><a href="https://www.facebook.com/sachin.dwivedi.73594" target="_blank"><i class="fa fa-facebook"
-						aria-hidden="true"></i></a></li>
-			<li><a href="https://www.instagram.com/sachin_dwivedi_17/" target="_blank"><i class="fa fa-instagram"
-						aria-hidden="true"></i></a></li>
-			<li><a href="https://twitter.com/sachind15096977" target="_blank"><i class="fa fa-twitter"
-						aria-hidden="true"></i></a></li>
-			<li><a href="https://www.linkedin.com/in/sachin-kumar-dwivedi-6a3230230/" target="_blank"><i
-						class="fa fa-linkedin w3-hover-opacity"></i></a></li>
+			<li><a href="https://www.facebook.com/sachin.dwivedi.73594" target="_blank"><ion-icon
+						name="logo-facebook"></ion-icon></a></li>
+			<li><a href="https://www.instagram.com/sachin_dwivedi_17/" target="_blank"><ion-icon
+						name="logo-instagram"></ion-icon></a></li>
+			<li><a href="https://twitter.com/sachind15096977" target="_blank"><ion-icon
+						name="logo-twitter"></ion-icon></a></li>
+			<li><a href="https://www.linkedin.com/in/sachin-kumar-dwivedi-6a3230230/" target="_blank"><ion-icon
+						name="logo-linkedin"></ion-icon></a></li>
 			<li><a href="https://github.com/sachindwi17" target="_blank"><i
 						class="fa fa-github w3-hover-opacity"></i></a></li>
 		</ul>
@@ -67,11 +69,9 @@
 			<div class="row">
 				<div class="col-md-5 text-justify">
 					<h2 class="bdr-btm">More About Sachin Dwivedi</h2>
-					<p><b>(Software engineer) Full satck Web developer.</b>I have done my bachelor of technology from
-						government indira gandhi engineering college sagar mp with Information Technology. I have
-						knowledge of full stack web development and i made some projects with the help of HTML, CSS,
-						JavaScript and many others technologies.you can easly access my project form my portfolio
-						project section. i have also done a internship from AICTE with Ministry of Cooperation.</p>
+					<p>(Software engineer) Sachin Kumar Dwivedi Full satck Web developer in IGEC sagar. I have done my
+						B.tech Degree in Information Technology from government Indira Gandhi Engineering College Sagar
+						M.P. </p>
 					<a href="#contact" class="btn1">Contact Me</a>
 				</div>
 				<div class="col-md">
@@ -82,7 +82,7 @@
 								MMSH Secondary School Panna <br>Percentage - 90.50</li>
 							<li><strong>Higher Secondary School</strong> <br>BSE Bhopal <br>SPHS School Brijpur <br>
 								Percentage - 78.40</li>
-							<li><strong>Graduation</strong> <br>RGPV Bhopal <br> Gov.Indira Gandhi<br>Engineering College<br> Sagar M.P <br> CGPA - 7.2
+							<li><strong>Graduation</strong> <br>RGPV Bhopal <br> Gov.IGEC Sagar M.P <br> CGPA - 7.2
 							</li>
 						</ul>
 					</div>
@@ -91,11 +91,11 @@
 					<div class="about-box">
 						<h3 class="bdr-btm">Programming Skills</h3>
 						<ul>
-							<li><strong>Programming Language</strong> <br>1.C Programming <br> 2.Java Programming <br>3.Python
-								<br>4.JavaScript
+							<li><strong>Programming Language</strong> <br>1.C Programming <br> 2.Java Programming
+								<br>3.JavaScript
 							</li>
 							<li><strong>Framworkes</strong> <br>1.HTML5 <br> 2.CSS3 <br>3.Bootstrap <br>4.PugJs
-								<br>5.NodeJs<br>6.React(Basic)
+								<br>5.NodeJs
 							</li>
 							<li><strong>Database</strong> <br> MongoDB</li>
 						</ul>
@@ -188,7 +188,7 @@
 			<div class="contact_box">
 				<i class="fa fa-map-marker"></i>
 				<h3>Address</h3>
-				<p>Panna M.P Pincode-(488001)</p>
+				<p>BMV Boys Hostel IGEC Sagar M.P Pincode-(470001)</p>
 			</div>
 		</div>
 		<div class="col-md-6 col-12 contact_section_right d-flex align-items-center">
@@ -204,26 +204,101 @@
 			</div>
 		</div>
 	</div>
-	<script>
-		async function sendData() {
-			const res = await fetch("https://yourquerys.herokuapp.com/api/send/946490e4-f899-4d26-8f13-507680386a29", {
-				method: 'post',
-				headers: {
-					"Content-Type": "application/json"
-				},
-				body: JSON.stringify({
-					name: document.getElementById('name').value,
-					email: document.getElementById('email').value,
-					phone: document.getElementById('phone').value,
-					query: document.getElementById('query').value
-				})
-			});
-			const data = await res.json();
-			if (data.Success) {
-				document.getElementById('form_details').innerHTML = "<b>Thanks for Contact Us!</b>";
-			}
-		}
-	</script>
+	<footer class="footer">
+		<ul class="social-icon">
+			<li class="social-icon__item"><a class="social-icon__link"
+					href="https://www.facebook.com/sachin.dwivedi.73594">
+					<ion-icon name="logo-facebook"></ion-icon>
+				</a></li>
+			<li class="social-icon__item"><a class="social-icon__link" href="https://twitter.com/sachind15096977">
+					<ion-icon name="logo-twitter"></ion-icon>
+				</a></li>
+			<li class="social-icon__item"><a class="social-icon__link"
+					href="https://www.linkedin.com/in/sachin-kumar-dwivedi-6a3230230/">
+					<ion-icon name="logo-linkedin"></ion-icon>
+				</a></li>
+			<li class="social-icon__item"><a class="social-icon__link"
+					href="https://www.instagram.com/sachin_dwivedi_17/">
+					<ion-icon name="logo-instagram"></ion-icon>
+				</a></li>
+		</ul>
+		<ul class="menu">
+			<li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
+			<li class="menu__item"><a class="menu__link" href="#about">About Us</a></li>
+			<li class="menu__item"><a class="menu__link" href="#projects">Projects</a></li>
+			<li class="menu__item"><a class="menu__link" href="#contact">Contact Us</a></li>
+
+		</ul>
+		<p>&copy; 2023 <a href="https://sachindwivedi.tech/" style="text-decoration:none">sachindwivedi.tech</a> | All
+			Rights Reserved</p>
+		<p>Managed by: <a
+				href="tel:+917024455317" style="text-decoration: none;">Sachin Kumar Dwivedi</a>
+		</p>
+	</footer>
 </body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<style>
+	.footer {
+		position: relative;
+		width: 100%;
+		background: #010519;
+		min-height: 100px;
+		padding: 20px 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.social-icon,
+	.menu {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 10px 0;
+		flex-wrap: wrap;
+	}
+
+	.social-icon__item,
+	.menu__item {
+		list-style: none;
+	}
+
+	.social-icon__link {
+		font-size: 2rem;
+		color: #fff;
+		margin: 0 10px;
+		display: inline-block;
+		transition: 0.5s;
+	}
+
+	.social-icon__link:hover {
+		transform: translateY(-10px);
+	}
+
+	.menu__link {
+		font-size: 1.2rem;
+		color: #fff;
+		margin: 0 10px;
+		display: inline-block;
+		transition: 0.5s;
+		text-decoration: none;
+		opacity: 0.75;
+		font-weight: 300;
+	}
+
+	.menu__link:hover {
+		opacity: 1;
+	}
+
+	.footer p {
+		color: #fff;
+		margin: 15px 0 10px 0;
+		font-size: 1rem;
+		font-weight: 300;
+	}
+</style>
 
 </html>
